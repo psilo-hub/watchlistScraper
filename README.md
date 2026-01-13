@@ -14,15 +14,23 @@ This is part of a "watchlist app" project I'm working on
   - poster url
   - ...
 
-Just try it out or check [this](./src/main/resources/implSteps.md) for more details.
+### Caching
+
+Downloaded pages get cached (retention period: 3 days)
+
+## How to try it
+
+- Clone this repo.
+- Start the service using: `mvn spring-boot:run`
+- Head to [localhost:8080](localhost:8080). This will redirect you to a Swagger UI that lists the API endpoints.
 
 ### Examples
 
-Search for movies or tv shows:
+**Search for movies or tv shows:**
 
 ![movieSearch](./picsForReadme/movieSearch.jpg)
 
-Fetching details about a movie or tv show:
+**Fetching details about a movie or tv show:**
 
 ![movieSearch](./picsForReadme/movieDetails.jpg)
 
