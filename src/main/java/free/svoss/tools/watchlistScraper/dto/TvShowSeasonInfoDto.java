@@ -1,0 +1,22 @@
+package free.svoss.tools.watchlistScraper.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class TvShowSeasonInfoDto {
+    private String infoSource;
+    private String id;
+    private String tvShowId;
+    private String seasonId;
+    private Integer seasonNr;
+    private String startDate;
+    private String rating;
+    private String posterUrl;
+    private Integer nrEpisodes;
+    private List<EpisodeInfoDto> episodeList;
+}
