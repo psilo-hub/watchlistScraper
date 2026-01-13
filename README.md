@@ -20,11 +20,11 @@ Just try it out or check [this](./src/main/resources/implSteps.md) for more deta
 
 Search for movies or tv shows:
 
-[movieSearch](./picsForReadme/movieSearch.jpg)
+![movieSearch](./picsForReadme/movieSearch.jpg)
 
 Fetching details about a movie or tv show:
 
-[movieSearch](./picsForReadme/movieDetails.jpg)
+![movieSearch](./picsForReadme/movieDetails.jpg)
 
 ## Planned
 
