@@ -75,6 +75,14 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+		<executions>
+            <execution>
+                <goals>
+					<!-- The 'repackage' goal transforms the standard JAR into an executable one -->
+                    <goal>repackage</goal>
+                </goals>
+            </execution>
+        </executions>
         <configuration>
           <excludes>
             <exclude>
